@@ -1,13 +1,13 @@
-# Customer Churn Prediction API
+# Customer Churn Prediction: From Model to API
 
 ## Project Background
 Customer churn merupakan permasalahan penting dalam bisnis, karena mempertahankan pelanggan lama umumnya lebih efisien dibandingkan memperoleh pelanggan baru. Dalam proyek ini, akan dibuat model prediktif sederhana menggunakan *logistic regression* untuk membantu mengidentifikasi risiko churn berdasarkan pola transaksi historis pelanggan.
 
 Proyek ini merupakan implementasi **Customer Churn Prediction API** menggunakan model *machine learning* yang disajikan melalui **FastAPI**. API ini digunakan untuk memprediksi kemungkinan pelanggan melakukan *churn* berdasarkan perilaku transaksi. API ini dapat diakses secara publik menggunakan **ngrok** untuk kebutuhan pengembangan atau demo.
 
-* Notebook pengolahan data dan pembuatan model:
-* Notebook pembuatan API menggunakan **FastAPI** serta proses deployment dengan **ngrok**:
-* Contoh implementasi model melalui API:
+* Notebook pengolahan data dan pembuatan model: [link](https://github.com/mrnrasyad/Customer-Churn-Prediction-Model/blob/main/notebooks/customer_churn.ipynb)
+* Notebook pembuatan API menggunakan **FastAPI** serta proses deployment dengan **ngrok**: [link](https://github.com/mrnrasyad/Customer-Churn-Prediction-Model/blob/main/notebooks/customer_churn_api.ipynb)
+* Contoh implementasi model melalui API: [link](https://github.com/mrnrasyad/Customer-Churn-Prediction-Model/blob/main/notebooks/customer_curn_api_implementation.ipynb)
 
 Base URL yang digunakan:
 **[https://pugilistic-reva-goutily.ngrok-free.dev/](https://pugilistic-reva-goutily.ngrok-free.dev/)**
